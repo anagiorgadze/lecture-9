@@ -1,0 +1,35 @@
+.wrapper-container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+  .container { 
+
+    background-color: aqua;
+    padding: 50px 0;
+    display:flex ;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 50px;
+}
+.left-box {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+.right-box {
+    width: 400px;
+    height: 400px;
+    background-color: green;
+}
+.section-2-container {
+    display: flex;
+    justify-content: space-between;
+}
+.img-container {
+    width: 250px;
+}
+.img-container >img{
+    width: 100%;
+}
